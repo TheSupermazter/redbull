@@ -1,7 +1,8 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     max-width: 100%;
+    
 }
 
 @font-face {
@@ -54,16 +55,20 @@
   }
 
 body {
-    background-color: rgb(248, 248, 248);
+    background-color: #f8f8f8;
     
+    
+}
+body#formule1 {
+background: linear-gradient(90deg, #F8F8F8, #F8F8F8 48%, black 49%, black 51%, #F8F8F8 52%);
 }
 
 header{
     background-color: #000B8D;
     border-radius: 0px 0px 15px 15px;
-}
+} */
 
-h1 {
+/* h1 {
     text-align: center;
     color: black;
     font-family: "futura";
@@ -71,22 +76,38 @@ h1 {
     font-size: 60px;
     margin: 30px 0px 10px 0px;
     
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     color: grey;
     font-family: "futura";
     font-weight: normal;
     font-size: 20px;
     margin-bottom: 3em;
+} */
+
+h3 {
+    font-family: "futura";
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+h4{
+    font-family: "futura";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 60px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-a>img {
+/* a>img {
     max-width: 3vh;
-}
+} */
 
-ul {
+/* ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -99,8 +120,8 @@ li {
     font-family: "futura";
     text-decoration: none;
     background-color: #db0840;
-    margin: 3em;
-    padding: 14px 24px;
+    margin: 3em 0em;
+    padding: 20px 50px;
     border-radius: 6px;
     font-size: 19px;
     font-weight: bold;
@@ -114,25 +135,28 @@ li:hover {
     background-color: #f30b47;
 }
 
-li:focus {
+a:active {
+    background-color: #f30b47;
+}
+
+a:focus {
     background-color: #f30b47;
 }
 
 li>a {
     color: white;
     text-decoration: none;
-    padding: 1em;
-    margin: 1em;
+    padding: 20px 90        px;
     
 }
 
 li>a>img {
-    scale: 800%;
+    scale: 900%;
     background-color: #000B8D;
-}
+} */
 
 
-main>p {
+/* main>p {
     line-height: 125%;
     font-family: "Futura";
     font-weight: normal;
@@ -140,12 +164,14 @@ main>p {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2em;
+    font-size: 20px;
 
 
-}
+} */
 
 .blik {
-    width: 150px;
+    width: 200px;
 }
 
 article {
@@ -176,10 +202,52 @@ section>p {
     color: #f30b47;
     padding-left: 50px;
     padding-top: 25px;
-    max-width: 45vw;
+    max-width: 25vw;
+    font-size: 20px
+
 }
 
 .inleiding {
     font-size: 20px;
     padding-bottom: 2em;
+}
+
+.links {
+    justify-content: left;
+    background: linear-gradient(90deg, #F8F8F8, #F8F8F8 48%, black 49%, black 51%, #F8F8F8 52%);
+}
+
+.rechts {
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #F8F8F8, #F8F8F8 48%, black 49%, black 51%, #F8F8F8 52%);
+}
+
+video {
+    max-width: 20vw;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+main>section {
+    display: flex;
+    
+}
+
+.links * {
+    max-width: 30vw;
+    padding-right: 20px;
+}
+
+.rechts * {
+    max-width: 25vw;
+    padding-left: 20px;
+}
+
+.links > img {
+    scale: 10%;
+}
+
+.rechts > img {
+    max-height: 65vh;
+    max-width: 30vh;
 }

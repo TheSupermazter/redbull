@@ -85,7 +85,7 @@ li {
     font-size: 19px;
     font-weight: bold;
     line-height: 1;
-    letter-spacing: 1,5px;
+    letter-spacing: 1.5px;
     
 
 }
@@ -105,7 +105,7 @@ a:focus {
 li>a {
     color: white;
     text-decoration: none;
-    padding: 20px 90        px;
+    padding: 20px 90px;
     
 }
 
@@ -293,12 +293,7 @@ main#overig>img {
     margin-left: 550px;
 }
 
-main#overig>iframe {
+main#overig>video {
     margin-left: 238px;
     margin-bottom: 40px;
-}
-
-main#overig>section {
-    display: flex;
-    justify-content: center;
 }

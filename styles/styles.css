@@ -162,7 +162,7 @@ main#index h3 {
     font-weight: bold;
     font-size: 65px;
     text-align: left;
-    margin-left: 205px;
+    margin-left: 175px;
 
 }
 
@@ -217,7 +217,7 @@ article>section>p {
     color: #f30b47;
     padding-top: 25px;
     margin-left: 50px;
-    width: 28vw;
+    width: 24vw;
     font-size: 20px;
     text-align: left;
     
@@ -236,8 +236,8 @@ article>section>p {
 }
 
 .links * {
-    max-width: 24vw;
-    padding-right: 20px;
+    max-width: 26vw;
+    padding-right: 0px;
 }
 
 .rechts * {
@@ -256,7 +256,6 @@ article>section>p {
     width: 28vh;
 }
 
-/* overig */
 main#f1 article {
     font-family: "Futura";
     padding: 5vh 10vh 10vh 10vh;
@@ -264,12 +263,14 @@ main#f1 article {
     flex-direction: row;
 }
 
+/* overig */
+
 main#overig h3 {
     font-family: "futura";
     font-weight: bold;
     font-size: 65px;
     text-align: left;
-    margin-left: 205px;
+    margin-left: 175px;
    
 }
 
@@ -280,7 +281,7 @@ main#overig h4 {
     color: grey;
     font-size: 30px;
     text-align: left;
-    margin-left: 205px;
+    margin-left: 175px;
     margin-bottom: 20px;
 }
 
@@ -290,12 +291,12 @@ main#overig p {
 }
 
 main#overig>img {
-    margin-left: 440px;
+    margin-left: 300px;
     margin-bottom: 20px;
 }
 
 main#overig>video {
-    margin-left: 205px;
+    margin-left: 175px;
     margin-bottom: 40px;
     max-width: 600px;
     max-height: 600px;

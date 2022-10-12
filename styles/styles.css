@@ -162,7 +162,7 @@ main#index h3 {
     font-weight: bold;
     font-size: 65px;
     text-align: left;
-    margin-left: 235px;
+    margin-left: 205px;
 
 }
 
@@ -236,24 +236,24 @@ article>section>p {
 }
 
 .links * {
-    max-width: 23vw;
+    max-width: 24vw;
     padding-right: 20px;
 }
 
 .rechts * {
-    max-width: 23vw;
+    max-width: 24vw;
     padding-left: 10px;
     margin-left: 0;
 }
 
 .links > img {
-    width: 30vh;
-    height: 25vh;
+    width: 25vh;
+    height: 20vh;
 }
 
 .rechts > img {
-    height: 30vh;
-    width: 35vh;
+    height: 27vh;
+    width: 28vh;
 }
 
 /* overig */
@@ -269,7 +269,7 @@ main#overig h3 {
     font-weight: bold;
     font-size: 65px;
     text-align: left;
-    margin-left: 235px;
+    margin-left: 205px;
    
 }
 
@@ -280,7 +280,7 @@ main#overig h4 {
     color: grey;
     font-size: 30px;
     text-align: left;
-    margin-left: 235px;
+    margin-left: 205px;
     margin-bottom: 20px;
 }
 
@@ -290,11 +290,12 @@ main#overig p {
 }
 
 main#overig>img {
-    margin-left: 550px;
+    margin-left: 440px;
+    margin-bottom: 20px;
 }
 
 main#overig>video {
-    margin-left: 238px;
+    margin-left: 205px;
     margin-bottom: 40px;
     max-width: 600px;
     max-height: 600px;
